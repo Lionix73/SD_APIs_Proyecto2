@@ -33,7 +33,7 @@ public class API_Manager : MonoBehaviour
 
     IEnumerator GetCharacter(int id, int cardIndex)
     {
-        UnityWebRequest www = UnityWebRequest.Get(url + "/" + id);
+        UnityWebRequest www = UnityWebRequest.Get(myurl + "/" + id);
         yield return www.SendWebRequest();
 
         if (www.result == UnityWebRequest.Result.ConnectionError)
