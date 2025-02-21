@@ -1046,7 +1046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   url: https://rickandmortyapi.com/api/character
-  myurl: https://my-json-server.typicode.com/lionix73/sd_apis_proyecto2/
+  myurl: https://my-json-server.typicode.com/lionix73/sd_apis_proyecto2/db
   cards:
   - {fileID: 756210968}
   - {fileID: 1592425066}

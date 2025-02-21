@@ -17,20 +17,6 @@
 
         {
             "id": 2,
-            "name": "Mary Jane Watson",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Femenino",
-            "origin": {
-                "name": "Tierra-18119",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdJpI-_1xTvlCHzR8eQsvacqZSgJeQbxSVDA&s"
-        },
-
-        {
-            "id": 3,
             "name": "Miguel O'Hara",
             "status": "Vivo",
             "species": "Humano",
@@ -44,7 +30,7 @@
         },
 
         {
-            "id": 4,
+            "id": 3,
             "name": "Benjamin Reilly",
             "status": "Vivo",
             "species": "Humano",
@@ -58,49 +44,21 @@
         },
 
         {
-            "id": 5,
+            "id": 4,
             "name": "Peter Parker",
             "status": "Vivo",
             "species": "Humano",
             "type": "",
             "gender": "Masculino",
             "origin": {
-                "name": "Tierra-9283",
+                "name": "Tierra-120703",
                 "url": "https://rickandmortyapi.com/api/location/1"
             },
-            "image": "https://www.infobae.com/resizer/v2/RN3KFSOFIVFW7KHHYJCYYEPG54.jpg?auth=08954a216dfddcfbb84ddb4e10b2e94f689a3756497756ad07e2eadf8d817fd3&smart=true&width=1200&height=1200&quality=85"
+            "image": "https://i.pinimg.com/736x/bf/2f/09/bf2f098fc26e86c40b320ca07ec94288.jpg"
         },
 
         {
-            "id": 6,
-            "name": "Aaron Davis",
-            "status": "Muerto",
-            "species": "Humano",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-1610B",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://i.pinimg.com/736x/30/9c/21/309c210a7ec0e447c869bdf0b5d1caff.jpg"
-        },
-        
-        {
-            "id": 7,
-            "name": "Adrian Toomes",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-TRN581",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://assets.mycast.io/actor_images/actor-vulture-noir-385434_large.jpg?1647357984"
-        },
-
-        {
-            "id": 8,
+            "id": 5,
             "name": "Anti-Venom",
             "status": "Vivo",
             "species": "Simbionte",
@@ -114,35 +72,7 @@
         },
 
         {
-            "id": 9,
-            "name": "Tony Stark",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-616",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://static.wikia.nocookie.net/ironman/images/c/c6/STL097606.jpg/revision/latest?cb=20191117212158"
-        },
-
-        {
-            "id": 10,
-            "name": "Aleksei Sytsevich",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-1048",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://media.vandal.net/i/1450x1088/9-2018/201897103034_1.jpg"
-        },
-
-        {
-            "id": 11,
+            "id": 6,
             "name": "Peter Parker",
             "status": "Vivo",
             "species": "Humano",
@@ -156,35 +86,7 @@
         },
 
         {
-            "id": 12,
-            "name": "Captain Universe",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-616",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://static.wikia.nocookie.net/spiderman/images/f/fe/Spider-Man_Enigma_Force.jpg/revision/latest/scale-to-width-down/250?cb=20240604164608"
-        },
-
-        {
-            "id": 13,
-            "name": "Benjamin Parker",
-            "status": "Muerto",
-            "species": "Humano",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-616",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://static.wikia.nocookie.net/marveldatabase/images/c/c7/Benjamin_Parker_%28Earth-616%29_from_Amazing_Spider-Man_Annual_Vol_1_39_001.jpg/revision/latest/scale-to-width-down/341?cb=20190121224016"
-        },
-
-        {
-            "id": 14,
+            "id": 7,
             "name": "Cain Marko",
             "status": "Vivo",
             "species": "Humano",
@@ -198,8 +100,8 @@
         },
 
         {
-            "id": 15,
-            "name": "Carnage",
+            "id": 8,
+            "name": "Venom",
             "status": "Vivo",
             "species": "Simbionte",
             "type": "",
@@ -208,39 +110,11 @@
                 "name": "Tierra-616",
                 "url": "https://rickandmortyapi.com/api/location/1"
             },
-            "image": "https://the616comics.com/cdn/shop/products/image_ee402037-0d19-4750-bfb9-5cc17ad2bfde_1200x1200.jpg?v=1653574532"
+            "image": "https://i.pinimg.com/736x/a9/51/59/a95159b90db8ff9daf69b69662acd7af.jpg"
         },
 
         {
-            "id": 16,
-            "name": "Cassandra Webb",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Femenino",
-            "origin": {
-                "name": "Tierra-616",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://static.wikia.nocookie.net/spiderman/images/e/e4/Cassandra_Webb_-_Tierra-616.png/revision/latest/scale-to-width-down/250?cb=20201011204500&path-prefix=es"
-        },
-
-        {
-            "id": 17,
-            "name": "Curtis Connors",
-            "status": "Muerto",
-            "species": "Humano",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-120703",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://preview.redd.it/o3161zyah8t71.jpg?width=640&crop=smart&auto=webp&s=034b04be0c8f3622fba3337f804da323cc416836"
-        },
-
-        {
-            "id": 18,
+            "id": 9,
             "name": "Curtis Connors",
             "status": "Vivo",
             "species": "Humano",
@@ -254,21 +128,7 @@
         },
 
         {
-            "id": 18,
-            "name": "Curtis Connors",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-616",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://static.wikia.nocookie.net/marveldatabase/images/5/59/Amazing_Spider-Man_Vol_1_690_Davis_Variant_Textless.jpg/revision/latest/scale-to-width-down/400?cb=20120719194748"
-        },
-
-        {
-            "id": 19,
+            "id": 10,
             "name": "Eddie Brock",
             "status": "Vivo",
             "species": "Humano",
@@ -282,21 +142,7 @@
         },
 
         {
-            "id": 20,
-            "name": "Edward Leeds",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-199999",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://static.wikia.nocookie.net/marveldatabase/images/4/4a/Edward_Leeds_%28Earth-199999%29_from_Spider-Man_Homecoming_001.jpg/revision/latest?cb=20170706160054"
-        },
-
-        {
-            "id": 21,
+            "id": 11,
             "name": "Flash Thompson",
             "status": "Vivo",
             "species": "Humano",
@@ -310,7 +156,7 @@
         },
 
         {
-            "id": 22,
+            "id": 12,
             "name": "Felicia Hardy",
             "status": "Vivo",
             "species": "Humano",
@@ -324,7 +170,7 @@
         },
 
         {
-            "id": 23,
+            "id": 13,
             "name": "Flint Marko",
             "status": "Vivo",
             "species": "Humano",
@@ -338,7 +184,7 @@
         },
 
         {
-            "id": 24,
+            "id": 14,
             "name": "Gwen Stacy",
             "status": "Muerto",
             "species": "Humano",
@@ -352,35 +198,7 @@
         },
 
         {
-            "id": 25,
-            "name": "Gwen Stacy",
-            "status": "Muerto",
-            "species": "Humano",
-            "type": "",
-            "gender": "Femenino",
-            "origin": {
-                "name": "Tierra-616",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://preview.redd.it/s30kbddw3ojb1.jpg?auto=webp&s=004264c70e113424baf0aea743dd6004c2549640"
-        },
-
-        {
-            "id": 26,
-            "name": "Gwen Stacy",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Femenino",
-            "origin": {
-                "name": "Tierra-65B",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://static.wikia.nocookie.net/loveinterest/images/d/d4/GwenStacyATSVCivilian.jpg/revision/latest?cb=20240722114335"
-        },
-
-        {
-            "id": 27,
+            "id": 15,
             "name": "Harry Osborn",
             "status": "Muerto",
             "species": "Humano",
@@ -394,35 +212,7 @@
         },
 
         {
-            "id": 28,
-            "name": "Herman Shultz",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-616",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB1zP7znzB9jZWCTKy8gca3umes2pU6hyBcA&s"
-        },
-
-        {
-            "id": 29,
-            "name": "Jessica Drew",
-            "status": "Muerto",
-            "species": "Humano",
-            "type": "",
-            "gender": "Femenino",
-            "origin": {
-                "name": "Tierra-616",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://i.pinimg.com/736x/11/4c/7b/114c7be58a100409c171204c708d8528.jpg"
-        },
-
-        {
-            "id": 30,
+            "id": 16,
             "name": "JJJ",
             "status": "Vivo",
             "species": "Humano",
@@ -436,21 +226,7 @@
         },
 
         {
-            "id": 31,
-            "name": "Knull",
-            "status": "Vivo",
-            "species": "N/A",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-616",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV8UwstGlSAl9z2VfKYFE2adPbQYCAEUYm2Q&s"
-        },
-
-        {
-            "id": 32,
+            "id": 17,
             "name": "Maxwell Dillon",
             "status": "Vivo",
             "species": "Humano",
@@ -464,7 +240,7 @@
         },
 
         {
-            "id": 33,
+            "id": 18,
             "name": "Miles Morales",
             "status": "Vivo",
             "species": "Humano",
@@ -478,7 +254,7 @@
         },
 
         {
-            "id": 34,
+            "id": 19,
             "name": "Miles Morales",
             "status": "Vivo",
             "species": "Humano",
@@ -489,48 +265,6 @@
                 "url": "https://rickandmortyapi.com/api/location/1"
             },
             "image": "https://static.wikia.nocookie.net/marveldatabase/images/3/34/Spider-Man_Across_the_Spider-Verse_poster_030_textless.jpg/revision/latest/thumbnail/width/360/height/360?cb=20230705133551"
-        },
-
-        {
-            "id": 35,
-            "name": "Demogoblin",
-            "status": "Vivo",
-            "species": "Demonio",
-            "type": "",
-            "gender": "Masculino",
-            "origin": {
-                "name": "Tierra-616",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgZXbZo4vyCPBmbdyf_S3-_WH0ap2mziC7zQ&s"
-        },
-
-        {
-            "id": 36,
-            "name": "May Reilly",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Femenino",
-            "origin": {
-                "name": "Tierra-120703",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9TFMQc5HTcXsRjN-rlzgsWRUPhYTK-dItrA&s"
-        },
-
-        {
-            "id": 36,
-            "name": "Maybelle Parker",
-            "status": "Vivo",
-            "species": "Humano",
-            "type": "",
-            "gender": "Femenino",
-            "origin": {
-                "name": "Tierra-616",
-                "url": "https://rickandmortyapi.com/api/location/1"
-            },
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREyuvd-08QOj7pwbowu8yD5PZqdXAlbT16Sg&s"
         }
     ]
 }
