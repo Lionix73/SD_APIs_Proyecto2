@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
 using UnityEngine.UI;
-using TMPro;
 
 public class API_Manager : MonoBehaviour
 {
@@ -17,6 +16,34 @@ public class API_Manager : MonoBehaviour
 
     [SerializeField]
     private InputField idInput;
+
+    [SerializeField]
+    private Dropdown dropdown;
+
+    private string selectedUrl;
+
+    void Start()
+    {
+        HandleDropdownValueChanged(dropdown.value);
+
+        dropdown.onValueChanged.AddListener(HandleDropdownValueChanged);
+    }
+
+    private void HandleDropdownValueChanged(int value)
+    {
+        switch (value)
+        {
+            case 0:
+                selectedUrl = url;
+                break;
+            case 1:
+                selectedUrl = myurl;
+                break;
+            default:
+                selectedUrl = url;
+                break;
+        }
+    }
 
     public void SendRequest(int cardIndex)
     {
@@ -33,7 +60,7 @@ public class API_Manager : MonoBehaviour
 
     IEnumerator GetCharacter(int id, int cardIndex)
     {
-        UnityWebRequest www = UnityWebRequest.Get(myurl + "/" + id);
+        UnityWebRequest www = UnityWebRequest.Get(selectedUrl + "/" + id);
         yield return www.SendWebRequest();
 
         if (www.result == UnityWebRequest.Result.ConnectionError)
