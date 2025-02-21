@@ -50,11 +50,14 @@ public class API_Manager : MonoBehaviour
         int id;
         if (int.TryParse(idInput.text, out id))
         {
-            StartCoroutine(GetCharacter(id, cardIndex));
-        }
-        else
-        {
-            Debug.Log("Invalid ID");
+            if (selectedUrl == myurl && (id < 1 || id > 20))
+            {
+                Debug.Log("ID out of range for myurl. Please enter an ID between 1 and 20.");
+            }
+            else
+            {
+                StartCoroutine(GetCharacter(id, cardIndex));
+            }
         }
     }
 
