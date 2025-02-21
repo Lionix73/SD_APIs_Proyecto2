@@ -1,25 +1,39 @@
 using UnityEngine;
-using System.Collections;
 using UnityEngine.Networking;
+using System.Collections;
 using UnityEngine.UI;
+using TMPro;
 
-public class RequestAPI : MonoBehaviour
+public class API_Manager : MonoBehaviour
 {
     [SerializeField]
     private string url = "https://rickandmortyapi.com/api/character";
+    
     [SerializeField]
-    private string myurl = "";
+    private string myurl = "https://my-json-server.typicode.com/lionix73/sd_apis_proyecto2/";
 
-    private RawImage picture;
+    [SerializeField]
+    private Card[] cards;
 
-    public void SendRequest()
+    [SerializeField]
+    private InputField idInput;
+
+    public void SendRequest(int cardIndex)
     {
-        StartCoroutine(GetCharacter(1));
+        int id;
+        if (int.TryParse(idInput.text, out id))
+        {
+            StartCoroutine(GetCharacter(id, cardIndex));
+        }
+        else
+        {
+            Debug.Log("Invalid ID");
+        }
     }
 
-    IEnumerator GetCharacter(int id)
+    IEnumerator GetCharacter(int id, int cardIndex)
     {
-        UnityWebRequest www = UnityWebRequest.Get(url+"/"+id);
+        UnityWebRequest www = UnityWebRequest.Get(url + "/" + id);
         yield return www.SendWebRequest();
 
         if (www.result == UnityWebRequest.Result.ConnectionError)
@@ -30,12 +44,8 @@ public class RequestAPI : MonoBehaviour
         {
             if (www.responseCode == 200)
             {
-                
                 Character character = JsonUtility.FromJson<Character>(www.downloadHandler.text);
-
-                StartCoroutine(GetImage(character.image));
-                
-                
+                StartCoroutine(GetImage(character.image, character, cardIndex));
             }
             else
             {
@@ -46,7 +56,7 @@ public class RequestAPI : MonoBehaviour
         }
     }
 
-    IEnumerator GetImage(string imageUrl)
+    IEnumerator GetImage(string imageUrl, Character character, int cardIndex)
     {
         UnityWebRequest request = UnityWebRequestTexture.GetTexture(imageUrl);
         yield return request.SendWebRequest();
@@ -57,20 +67,39 @@ public class RequestAPI : MonoBehaviour
         else
         {
             var texture = ((DownloadHandlerTexture)request.downloadHandler).texture;
-            picture.texture = texture;
+            UpdateCard(character, texture, cardIndex);
+        }
+    }
+
+    private void UpdateCard(Character character, Texture2D texture, int cardIndex)
+    {
+        if (cardIndex >= 0 && cardIndex < cards.Length)
+        {
+            cards[cardIndex].UpdateCard(character, texture);
         }
     }
 
     [System.Serializable]
-    public class Character{
+    public class Character
+    {
         public int id;
         public string name;
+        public string status;
         public string species;
         public string image;
+        public Origin origin;
     }
 
     [System.Serializable]
-    public class CharactersList{
+    public class Origin
+    {
+        public string name;
+        public string url;
+    }
+
+    [System.Serializable]
+    public class CharactersList
+    {
         public Character[] results;
     }
 }
